@@ -17,7 +17,7 @@ import { Button } from "bootstrap";
 const Sidebar = () => {
   const { dispatch } = useContext(AuthContext);
   const handleLogout = () => {
-    dispatch(logout()); // Dispatch the logout action
+    dispatch(logout()); 
   };
 
   return (
@@ -41,20 +41,14 @@ const Sidebar = () => {
           <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
               <StoreIcon className="icon" />
-              <span>Products</span>
+              <span>Vehicle Products</span>
             </li>
           </Link> 
-          <p className="title">USEFUL</p>
-          <li>
-            <InsertChartIcon className="icon" />
-            <span>Stats</span>
-          </li>
+         
           <li>
             <NotificationsNoneIcon className="icon" />
             <span>Notifications</span>
           </li>
-         
-          
           <li>
             <SettingsApplicationsIcon className="icon" />
             <span>Settings</span>

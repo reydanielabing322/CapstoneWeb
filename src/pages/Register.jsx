@@ -42,7 +42,7 @@ const Register = () => {
                 <button type="submit" className="btn">Register</button>
             </form>
             {errorMessage && <p>{errorMessage}</p>}
-            <MDBBtn color='light' size='lg'>Reset all</MDBBtn>
+           
         </>
         
     );

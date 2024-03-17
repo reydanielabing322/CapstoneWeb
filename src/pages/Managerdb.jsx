@@ -16,6 +16,7 @@ const Managerdb = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
